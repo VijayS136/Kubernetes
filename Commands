@@ -1,0 +1,18 @@
+pods
+kubectl get po
+kubectl get delete pod pod-name
+kubectl get describe pod kubectl
+
+service
+kubectl get svc
+kubectl get delete svc svc-name
+kubectl get describe svc svc-name
+
+replicacontroller
+kubectl get rc
+kubectl get delete rc rc-name
+kubectl get describe rc rc-name
+
+to create rc/rs in dynamic by using cmd
+kubectl scale rc myrc --replicas=4
+kubectl scale rs myrs --replicas=4
